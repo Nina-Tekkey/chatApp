@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+    
+    <link rel="stylesheet" href="client.css" >
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+      <script src="/socket.io/socket.io.js"></script>
+      
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT ROOMS</title>
+   </head>
+   <body>
+
+    <div id ="div1">CHAT ROOM LOBBY</div>
+    <h4>Currently User:</h4> <h4 id="usernamePlace">-</h4>
+     <h6> Change Username: <input type="text" name="username" id="olduser">
+         <input type="button" value="Submit" id="signin">
+        </h6>
+         <h6>
+      <input type=text id="message_input">
+      <button type="button" id="newRoom">Create New Room</button>
+      Password: <input type="password" name="password" id="roomPasscode">
+      <button type="button" id="passRoom">Create New Room with Password</button>
+
+      
+    </h6>
+    <div id="chatlog"></div>
+    
+
+      <div class = div2  id="RoomMessages"></div>
+      <div id="TypeAndLeave"></div>
+      <div id="usersInRoom"></div>
+
+
+
+     
+
+<script src="client.js"></script>
+
+   </body>
+</html>

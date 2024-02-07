@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "mime": "^3.0.0",
+        "nodemon": "^2.0.20",
+        "socket.io": "^4.5.3"
+    },
+    "scripts":{
+        "start": "chat_server.js"
+    }
+}

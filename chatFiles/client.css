@@ -1,0 +1,9 @@
+.div2{
+    height: 300px;;width: 600px;;font:16px Arial, Serif;overflow:auto;
+}
+h4,h1 {
+    display:inline;
+}
+body {
+    background-color: #f8f0f0;
+}
